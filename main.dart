@@ -26,7 +26,7 @@ class ChatScreen extends StatefulWidget {
 class _ChatScreenState extends State<ChatScreen> {
   final TextEditingController _controller = TextEditingController();
   List<Map<String, String>> messages = [];
-  final String apiKey = "AIzaSyCgH7iG_qSahs6GmMlw5hytKT_CjkdMsbQ"; // Replace with your actual API key
+  final String apiKey = ""; // Replace with your actual API key
 
   Future<void> sendMessage(String message) async {
     if (message.isEmpty) return;
